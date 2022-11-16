@@ -15,7 +15,10 @@ class Direction(Enum):
 @dataclass
 class GameStatus:
     running: bool = False
+    #player: Player = Player(DEFAULT_PLAYER_NAME)
+    current_position: tuple = ARBITRARY_INVALID_INITIALIZED_POSITION
     character: Character = Character(DEFAULT_CHARACTER_NAME)
+
 
 
 class GameController:
