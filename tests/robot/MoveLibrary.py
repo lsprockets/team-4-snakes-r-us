@@ -1,5 +1,5 @@
 from levelup.controller import GameController
-from levelup.controller import direction
+from levelup.controller import Direction
 
 start_x: int 
 start_y: int
