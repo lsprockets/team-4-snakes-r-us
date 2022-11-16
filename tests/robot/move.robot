@@ -1,7 +1,7 @@
 *** Settings ***
 Description     I want to move my character. If they attempt to move past a boundry, the move results in no change in position.
 Test Template   Move character
-Library         Move.python.py
+Library         MoveLibrary.py
 
 *** Test Cases ***      StartingX   StartingY  Direction   EndingX     EndingY
 Move in middle of board 0           0          North       0           1
