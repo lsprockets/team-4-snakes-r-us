@@ -19,8 +19,23 @@ class GameStatus:
     current_position: tuple = ARBITRARY_INVALID_INITIALIZED_POSITION
     character: Character = Character(DEFAULT_CHARACTER_NAME)
 
+    def set_character_position(self,xycoordinates: tuple) -> None:
+        print(f"Set character position state for testing")
+        # TODO: IMPLEMENT THIS
 
-
+    def character_xposition_should_be(self,expected):
+        end_x = self.controller.status.current_position[0]
+        if end_x != expected:
+            raise AssertionError(
+                "%s != %s" % (end_x, expected)
+            )
+    
+    def character_xposition_should_be(self, expected):
+        end_y = self.controller.status.current_position[0]
+        if end_y != expected:
+            raise AssertionError(
+                "%s != %s" % (end_y,expected)
+            )
 class GameController:
     status: GameStatus
 
