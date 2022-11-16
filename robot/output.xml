@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.10.8 on linux)" generated="20221116 23:37:34.402" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.10.8 on linux)" generated="20221116 23:49:52.569" rpa="false" schemaversion="3">
 <suite id="s1" name="Robot" source="/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot">
 <suite id="s1-s1" name="Data Driven" source="/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/data_driven.robot">
 <test id="s1-s1-t1" name="Arbitrary name" line="7">
@@ -7,91 +7,91 @@
 <arg>Trogdor</arg>
 <arg>Trogdor</arg>
 <kw name="Initialize Controller" library="GameControllerLibrary">
-<status status="PASS" starttime="20221116 23:37:34.436" endtime="20221116 23:37:34.436"/>
+<status status="PASS" starttime="20221116 23:49:52.595" endtime="20221116 23:49:52.596"/>
 </kw>
 <kw name="Create Character With Name" library="GameControllerLibrary">
 <arg>${provided}</arg>
-<status status="PASS" starttime="20221116 23:37:34.437" endtime="20221116 23:37:34.437"/>
+<status status="PASS" starttime="20221116 23:49:52.596" endtime="20221116 23:49:52.596"/>
 </kw>
 <kw name="Character Name Should Be" library="GameControllerLibrary">
 <arg>${actual}</arg>
-<status status="PASS" starttime="20221116 23:37:34.437" endtime="20221116 23:37:34.437"/>
+<status status="PASS" starttime="20221116 23:49:52.596" endtime="20221116 23:49:52.596"/>
 </kw>
-<status status="PASS" starttime="20221116 23:37:34.436" endtime="20221116 23:37:34.437"/>
+<status status="PASS" starttime="20221116 23:49:52.595" endtime="20221116 23:49:52.596"/>
 </kw>
-<status status="PASS" starttime="20221116 23:37:34.435" endtime="20221116 23:37:34.438"/>
+<status status="PASS" starttime="20221116 23:49:52.595" endtime="20221116 23:49:52.596"/>
 </test>
 <test id="s1-s1-t2" name="Blank character name" line="8">
 <kw name="Start new game with character">
 <arg>${EMPTY}</arg>
 <arg>Character</arg>
 <kw name="Initialize Controller" library="GameControllerLibrary">
-<status status="PASS" starttime="20221116 23:37:34.439" endtime="20221116 23:37:34.440"/>
+<status status="PASS" starttime="20221116 23:49:52.598" endtime="20221116 23:49:52.598"/>
 </kw>
 <kw name="Create Character With Name" library="GameControllerLibrary">
 <arg>${provided}</arg>
-<status status="PASS" starttime="20221116 23:37:34.440" endtime="20221116 23:37:34.440"/>
+<status status="PASS" starttime="20221116 23:49:52.598" endtime="20221116 23:49:52.598"/>
 </kw>
 <kw name="Character Name Should Be" library="GameControllerLibrary">
 <arg>${actual}</arg>
-<status status="PASS" starttime="20221116 23:37:34.440" endtime="20221116 23:37:34.440"/>
+<status status="PASS" starttime="20221116 23:49:52.598" endtime="20221116 23:49:52.598"/>
 </kw>
-<status status="PASS" starttime="20221116 23:37:34.438" endtime="20221116 23:37:34.441"/>
+<status status="PASS" starttime="20221116 23:49:52.597" endtime="20221116 23:49:52.599"/>
 </kw>
-<status status="PASS" starttime="20221116 23:37:34.438" endtime="20221116 23:37:34.441"/>
+<status status="PASS" starttime="20221116 23:49:52.597" endtime="20221116 23:49:52.599"/>
 </test>
 <doc>Example test case using the data-driven (table) syntax.</doc>
-<status status="PASS" starttime="20221116 23:37:34.428" endtime="20221116 23:37:34.442"/>
+<status status="PASS" starttime="20221116 23:49:52.589" endtime="20221116 23:49:52.599"/>
 </suite>
 <suite id="s1-s2" name="Gherkin" source="/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/gherkin.robot">
 <test id="s1-s2-t1" name="Game controller initialized with character name" line="6">
 <kw name="Given controller has been initialized">
 <kw name="Initialize Controller" library="GameControllerLibrary">
-<status status="PASS" starttime="20221116 23:37:34.446" endtime="20221116 23:37:34.447"/>
+<status status="PASS" starttime="20221116 23:49:52.603" endtime="20221116 23:49:52.603"/>
 </kw>
-<status status="PASS" starttime="20221116 23:37:34.446" endtime="20221116 23:37:34.447"/>
+<status status="PASS" starttime="20221116 23:49:52.602" endtime="20221116 23:49:52.603"/>
 </kw>
 <kw name="When character is created with name &quot;ArbitraryName&quot;" sourcename="Character is created with name &quot;${provided}&quot;">
 <kw name="Create Character With Name" library="GameControllerLibrary">
 <arg>${provided}</arg>
-<status status="PASS" starttime="20221116 23:37:34.447" endtime="20221116 23:37:34.447"/>
+<status status="PASS" starttime="20221116 23:49:52.603" endtime="20221116 23:49:52.603"/>
 </kw>
-<status status="PASS" starttime="20221116 23:37:34.447" endtime="20221116 23:37:34.448"/>
+<status status="PASS" starttime="20221116 23:49:52.603" endtime="20221116 23:49:52.604"/>
 </kw>
 <kw name="Then actual character name is &quot;ArbitraryName&quot;" sourcename="Actual character name is &quot;${actual}&quot;">
 <kw name="Character Name Should Be" library="GameControllerLibrary">
 <arg>${actual}</arg>
-<status status="PASS" starttime="20221116 23:37:34.448" endtime="20221116 23:37:34.448"/>
+<status status="PASS" starttime="20221116 23:49:52.604" endtime="20221116 23:49:52.604"/>
 </kw>
-<status status="PASS" starttime="20221116 23:37:34.448" endtime="20221116 23:37:34.448"/>
+<status status="PASS" starttime="20221116 23:49:52.604" endtime="20221116 23:49:52.604"/>
 </kw>
-<status status="PASS" starttime="20221116 23:37:34.446" endtime="20221116 23:37:34.448"/>
+<status status="PASS" starttime="20221116 23:49:52.602" endtime="20221116 23:49:52.604"/>
 </test>
 <test id="s1-s2-t2" name="Game controller initialized without character name" line="11">
 <kw name="Given controller has been initialized">
 <kw name="Initialize Controller" library="GameControllerLibrary">
-<status status="PASS" starttime="20221116 23:37:34.450" endtime="20221116 23:37:34.450"/>
+<status status="PASS" starttime="20221116 23:49:52.605" endtime="20221116 23:49:52.605"/>
 </kw>
-<status status="PASS" starttime="20221116 23:37:34.449" endtime="20221116 23:37:34.450"/>
+<status status="PASS" starttime="20221116 23:49:52.605" endtime="20221116 23:49:52.605"/>
 </kw>
 <kw name="When character is created with name &quot;&quot;" sourcename="Character is created with name &quot;${provided}&quot;">
 <kw name="Create Character With Name" library="GameControllerLibrary">
 <arg>${provided}</arg>
-<status status="PASS" starttime="20221116 23:37:34.450" endtime="20221116 23:37:34.451"/>
+<status status="PASS" starttime="20221116 23:49:52.606" endtime="20221116 23:49:52.606"/>
 </kw>
-<status status="PASS" starttime="20221116 23:37:34.450" endtime="20221116 23:37:34.451"/>
+<status status="PASS" starttime="20221116 23:49:52.606" endtime="20221116 23:49:52.606"/>
 </kw>
 <kw name="Then actual character name is &quot;Character&quot;" sourcename="Actual character name is &quot;${actual}&quot;">
 <kw name="Character Name Should Be" library="GameControllerLibrary">
 <arg>${actual}</arg>
-<status status="PASS" starttime="20221116 23:37:34.451" endtime="20221116 23:37:34.451"/>
+<status status="PASS" starttime="20221116 23:49:52.606" endtime="20221116 23:49:52.607"/>
 </kw>
-<status status="PASS" starttime="20221116 23:37:34.451" endtime="20221116 23:37:34.452"/>
+<status status="PASS" starttime="20221116 23:49:52.606" endtime="20221116 23:49:52.607"/>
 </kw>
-<status status="PASS" starttime="20221116 23:37:34.449" endtime="20221116 23:37:34.452"/>
+<status status="PASS" starttime="20221116 23:49:52.605" endtime="20221116 23:49:52.607"/>
 </test>
 <doc>Example test case using the gherkin syntax.</doc>
-<status status="PASS" starttime="20221116 23:37:34.443" endtime="20221116 23:37:34.452"/>
+<status status="PASS" starttime="20221116 23:49:52.600" endtime="20221116 23:49:52.607"/>
 </suite>
 <suite id="s1-s3" name="Move" source="/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/move.robot">
 <test id="s1-s3-t1" name="Move in middle of board 0" line="7">
@@ -100,10 +100,10 @@
 <arg>North</arg>
 <arg>0</arg>
 <arg>1</arg>
-<msg timestamp="20221116 23:37:34.456" level="FAIL">Keyword 'Move character' expected 0 arguments, got 4.</msg>
-<status status="FAIL" starttime="20221116 23:37:34.455" endtime="20221116 23:37:34.456"/>
+<msg timestamp="20221116 23:49:52.611" level="FAIL">Keyword 'Move character' expected 0 arguments, got 4.</msg>
+<status status="FAIL" starttime="20221116 23:49:52.610" endtime="20221116 23:49:52.611"/>
 </kw>
-<status status="FAIL" starttime="20221116 23:37:34.455" endtime="20221116 23:37:34.456">Keyword 'Move character' expected 0 arguments, got 4.</status>
+<status status="FAIL" starttime="20221116 23:49:52.610" endtime="20221116 23:49:52.611">Keyword 'Move character' expected 0 arguments, got 4.</status>
 </test>
 <test id="s1-s3-t2" name="Move on edge of board" line="8">
 <kw name="Move character">
@@ -112,14 +112,14 @@
 <arg>South</arg>
 <arg>0</arg>
 <arg>0</arg>
-<msg timestamp="20221116 23:37:34.457" level="FAIL">Keyword 'Move character' expected 0 arguments, got 5.</msg>
-<status status="FAIL" starttime="20221116 23:37:34.457" endtime="20221116 23:37:34.457"/>
+<msg timestamp="20221116 23:49:52.612" level="FAIL">Keyword 'Move character' expected 0 arguments, got 5.</msg>
+<status status="FAIL" starttime="20221116 23:49:52.612" endtime="20221116 23:49:52.612"/>
 </kw>
-<status status="FAIL" starttime="20221116 23:37:34.457" endtime="20221116 23:37:34.458">Keyword 'Move character' expected 0 arguments, got 5.</status>
+<status status="FAIL" starttime="20221116 23:49:52.611" endtime="20221116 23:49:52.612">Keyword 'Move character' expected 0 arguments, got 5.</status>
 </test>
-<status status="FAIL" starttime="20221116 23:37:34.453" endtime="20221116 23:37:34.458"/>
+<status status="FAIL" starttime="20221116 23:49:52.608" endtime="20221116 23:49:52.612"/>
 </suite>
-<status status="FAIL" starttime="20221116 23:37:34.403" endtime="20221116 23:37:34.459"/>
+<status status="FAIL" starttime="20221116 23:49:52.570" endtime="20221116 23:49:52.613"/>
 </suite>
 <statistics>
 <total>
@@ -135,7 +135,18 @@
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20221116 23:37:34.400" level="ERROR">Error in file '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/move.robot' on line 2: Non-existing setting 'Description'.</msg>
-<msg timestamp="20221116 23:37:34.454" level="ERROR">Error in file '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/move.robot' on line 4: Library 'Move.python.py' does not exist.</msg>
+<msg timestamp="20221116 23:49:52.567" level="ERROR">Error in file '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/move.robot' on line 2: Non-existing setting 'Description'.</msg>
+<msg timestamp="20221116 23:49:52.609" level="ERROR">Error in file '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/move.robot' on line 4: Importing library '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/MoveLibrary.py' failed: ImportError: cannot import name 'direction' from 'levelup.controller' (/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/src/levelup/controller.py)
+Traceback (most recent call last):
+  File "/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/MoveLibrary.py", line 2, in &lt;module&gt;
+    from levelup.controller import direction
+PYTHONPATH:
+  /home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot
+  /opt/hostedtoolcache/Python/3.10.8/x64/bin
+  /home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/src
+  /opt/hostedtoolcache/Python/3.10.8/x64/lib/python310.zip
+  /opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10
+  /opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/lib-dynload
+  /opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages</msg>
 </errors>
 </robot>
