@@ -2,11 +2,13 @@ from unittest import TestCase
 
 #Test if Character Class Exists
 class Character(TestCase):
-    def Character(self):
+    def test_init(self):
         test_controller = Character()
-        
-def init(self):
-    #test_controller = Init()    
+        expected_class = Character()
+
+# Test if Init Meethod Exist
+    #def init(self):
+        #test_controller = Init()    
         
 #Test Character Class Exists
     #def test_char_has_name
@@ -21,6 +23,3 @@ def init(self):
 
 #Test SetPosition Method
 
-#Test 
-
-#Test 
