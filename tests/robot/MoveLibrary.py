@@ -11,12 +11,12 @@ class MoveLibrary:
     def Initialize_character_yposition_with (self, y_position):
         self.start_y = y_position
 
-    def move_in_direction(self,direction):
+    def move_in_direction(self, direction):
         self.controller = GameController()
         self.controller.set_character_position((self.start_x,self.start_y))
         self.controller.move(Direction[direction])
 
-    def character_xposition_should_be(self,expected):
+    def character_xposition_should_be(self, expected):
         end_x = self.controller.status.current_position[0]
         if end_x != expected:
             raise AssertionError(
