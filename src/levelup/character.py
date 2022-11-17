@@ -31,7 +31,7 @@ class Character:
     def setPosition():
         curr_r = 1
         curr_c = 1
-        curr_pos = [curr+r][curr_c]
+        curr_pos = [curr_r][curr_c]
         return curr_pos
 
-        
+
