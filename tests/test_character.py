@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-#Test Character Class Exits
+#Test if Character Class Exits
 class Character(TestCase):
     def Character(self):
         test_controller = Chacter()
