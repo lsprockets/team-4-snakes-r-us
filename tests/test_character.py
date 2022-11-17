@@ -1,17 +1,16 @@
 from unittest import TestCase
 
-#Test if Character Class Exits
+#Test if Character Class Exists
 class Character(TestCase):
     def Character(self):
         test_controller = Character()
         
-#def init(self):
+def init(self):
     #test_controller = Init()    
         
-#Library     Character.py
-
-#Test Character Class Exits
+#Test Character Class Exists
     #def test_char_has_name
+
 #Test Init Method exists
 
 #Test getName Method exists
