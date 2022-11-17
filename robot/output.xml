@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.10.8 on linux)" generated="20221117 21:34:39.468" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.10.8 on linux)" generated="20221117 22:16:12.316" rpa="false" schemaversion="3">
 <suite id="s1" name="Robot" source="/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot">
 <suite id="s1-s1" name="Data Driven" source="/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/data_driven.robot">
 <test id="s1-s1-t1" name="Arbitrary name" line="7">
@@ -7,167 +7,179 @@
 <arg>Trogdor</arg>
 <arg>Trogdor</arg>
 <kw name="Initialize Controller" library="GameControllerLibrary">
-<status status="PASS" starttime="20221117 21:34:39.505" endtime="20221117 21:34:39.505"/>
+<status status="PASS" starttime="20221117 22:16:12.342" endtime="20221117 22:16:12.343"/>
 </kw>
 <kw name="Create Character With Name" library="GameControllerLibrary">
 <arg>${provided}</arg>
-<status status="PASS" starttime="20221117 21:34:39.505" endtime="20221117 21:34:39.506"/>
+<status status="PASS" starttime="20221117 22:16:12.343" endtime="20221117 22:16:12.343"/>
 </kw>
 <kw name="Character Name Should Be" library="GameControllerLibrary">
 <arg>${actual}</arg>
-<status status="PASS" starttime="20221117 21:34:39.506" endtime="20221117 21:34:39.506"/>
+<status status="PASS" starttime="20221117 22:16:12.343" endtime="20221117 22:16:12.343"/>
 </kw>
-<status status="PASS" starttime="20221117 21:34:39.504" endtime="20221117 21:34:39.506"/>
+<status status="PASS" starttime="20221117 22:16:12.342" endtime="20221117 22:16:12.343"/>
 </kw>
-<status status="PASS" starttime="20221117 21:34:39.503" endtime="20221117 21:34:39.507"/>
+<status status="PASS" starttime="20221117 22:16:12.342" endtime="20221117 22:16:12.343"/>
 </test>
 <test id="s1-s1-t2" name="Blank character name" line="8">
 <kw name="Start new game with character">
 <arg>${EMPTY}</arg>
 <arg>Character</arg>
 <kw name="Initialize Controller" library="GameControllerLibrary">
-<status status="PASS" starttime="20221117 21:34:39.508" endtime="20221117 21:34:39.509"/>
+<status status="PASS" starttime="20221117 22:16:12.345" endtime="20221117 22:16:12.345"/>
 </kw>
 <kw name="Create Character With Name" library="GameControllerLibrary">
 <arg>${provided}</arg>
-<status status="PASS" starttime="20221117 21:34:39.509" endtime="20221117 21:34:39.509"/>
+<status status="PASS" starttime="20221117 22:16:12.345" endtime="20221117 22:16:12.345"/>
 </kw>
 <kw name="Character Name Should Be" library="GameControllerLibrary">
 <arg>${actual}</arg>
-<status status="PASS" starttime="20221117 21:34:39.509" endtime="20221117 21:34:39.509"/>
+<status status="PASS" starttime="20221117 22:16:12.345" endtime="20221117 22:16:12.345"/>
 </kw>
-<status status="PASS" starttime="20221117 21:34:39.507" endtime="20221117 21:34:39.509"/>
+<status status="PASS" starttime="20221117 22:16:12.344" endtime="20221117 22:16:12.346"/>
 </kw>
-<status status="PASS" starttime="20221117 21:34:39.507" endtime="20221117 21:34:39.510"/>
+<status status="PASS" starttime="20221117 22:16:12.344" endtime="20221117 22:16:12.346"/>
 </test>
 <doc>Example test case using the data-driven (table) syntax.</doc>
-<status status="PASS" starttime="20221117 21:34:39.496" endtime="20221117 21:34:39.510"/>
+<status status="PASS" starttime="20221117 22:16:12.336" endtime="20221117 22:16:12.346"/>
 </suite>
 <suite id="s1-s2" name="Gherkin" source="/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/gherkin.robot">
 <test id="s1-s2-t1" name="Game controller initialized with character name" line="6">
 <kw name="Given controller has been initialized">
 <kw name="Initialize Controller" library="GameControllerLibrary">
-<status status="PASS" starttime="20221117 21:34:39.515" endtime="20221117 21:34:39.515"/>
+<status status="PASS" starttime="20221117 22:16:12.350" endtime="20221117 22:16:12.350"/>
 </kw>
-<status status="PASS" starttime="20221117 21:34:39.515" endtime="20221117 21:34:39.515"/>
+<status status="PASS" starttime="20221117 22:16:12.350" endtime="20221117 22:16:12.350"/>
 </kw>
 <kw name="When character is created with name &quot;ArbitraryName&quot;" sourcename="Character is created with name &quot;${provided}&quot;">
 <kw name="Create Character With Name" library="GameControllerLibrary">
 <arg>${provided}</arg>
-<status status="PASS" starttime="20221117 21:34:39.516" endtime="20221117 21:34:39.516"/>
+<status status="PASS" starttime="20221117 22:16:12.351" endtime="20221117 22:16:12.351"/>
 </kw>
-<status status="PASS" starttime="20221117 21:34:39.516" endtime="20221117 21:34:39.516"/>
+<status status="PASS" starttime="20221117 22:16:12.350" endtime="20221117 22:16:12.351"/>
 </kw>
 <kw name="Then actual character name is &quot;ArbitraryName&quot;" sourcename="Actual character name is &quot;${actual}&quot;">
 <kw name="Character Name Should Be" library="GameControllerLibrary">
 <arg>${actual}</arg>
-<status status="PASS" starttime="20221117 21:34:39.517" endtime="20221117 21:34:39.517"/>
+<status status="PASS" starttime="20221117 22:16:12.351" endtime="20221117 22:16:12.352"/>
 </kw>
-<status status="PASS" starttime="20221117 21:34:39.517" endtime="20221117 21:34:39.517"/>
+<status status="PASS" starttime="20221117 22:16:12.351" endtime="20221117 22:16:12.352"/>
 </kw>
-<status status="PASS" starttime="20221117 21:34:39.514" endtime="20221117 21:34:39.517"/>
+<status status="PASS" starttime="20221117 22:16:12.349" endtime="20221117 22:16:12.352"/>
 </test>
 <test id="s1-s2-t2" name="Game controller initialized without character name" line="11">
 <kw name="Given controller has been initialized">
 <kw name="Initialize Controller" library="GameControllerLibrary">
-<status status="PASS" starttime="20221117 21:34:39.519" endtime="20221117 21:34:39.519"/>
+<status status="PASS" starttime="20221117 22:16:12.353" endtime="20221117 22:16:12.353"/>
 </kw>
-<status status="PASS" starttime="20221117 21:34:39.518" endtime="20221117 21:34:39.519"/>
+<status status="PASS" starttime="20221117 22:16:12.352" endtime="20221117 22:16:12.353"/>
 </kw>
 <kw name="When character is created with name &quot;&quot;" sourcename="Character is created with name &quot;${provided}&quot;">
 <kw name="Create Character With Name" library="GameControllerLibrary">
 <arg>${provided}</arg>
-<status status="PASS" starttime="20221117 21:34:39.519" endtime="20221117 21:34:39.520"/>
+<status status="PASS" starttime="20221117 22:16:12.353" endtime="20221117 22:16:12.353"/>
 </kw>
-<status status="PASS" starttime="20221117 21:34:39.519" endtime="20221117 21:34:39.520"/>
+<status status="PASS" starttime="20221117 22:16:12.353" endtime="20221117 22:16:12.354"/>
 </kw>
 <kw name="Then actual character name is &quot;Character&quot;" sourcename="Actual character name is &quot;${actual}&quot;">
 <kw name="Character Name Should Be" library="GameControllerLibrary">
 <arg>${actual}</arg>
-<status status="PASS" starttime="20221117 21:34:39.520" endtime="20221117 21:34:39.521"/>
+<status status="PASS" starttime="20221117 22:16:12.354" endtime="20221117 22:16:12.354"/>
 </kw>
-<status status="PASS" starttime="20221117 21:34:39.520" endtime="20221117 21:34:39.521"/>
+<status status="PASS" starttime="20221117 22:16:12.354" endtime="20221117 22:16:12.354"/>
 </kw>
-<status status="PASS" starttime="20221117 21:34:39.518" endtime="20221117 21:34:39.521"/>
+<status status="PASS" starttime="20221117 22:16:12.352" endtime="20221117 22:16:12.354"/>
 </test>
 <doc>Example test case using the gherkin syntax.</doc>
-<status status="PASS" starttime="20221117 21:34:39.511" endtime="20221117 21:34:39.521"/>
+<status status="PASS" starttime="20221117 22:16:12.347" endtime="20221117 22:16:12.355"/>
 </suite>
 <suite id="s1-s3" name="Move" source="/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/move.robot">
-<test id="s1-s3-t1" name="Move in middle of board" line="12">
+<test id="s1-s3-t1" name="Move in middle of board" line="7">
 <kw name="Move character">
 <arg>0</arg>
 <arg>0</arg>
 <arg>NORTH</arg>
 <arg>0</arg>
 <arg>1</arg>
-<msg timestamp="20221117 21:34:39.528" level="FAIL">Keyword with same name defined multiple times.</msg>
-<status status="FAIL" starttime="20221117 21:34:39.528" endtime="20221117 21:34:39.528"/>
+<kw name="Initialize Character Xposition With" library="MoveLibrary">
+<arg>${startingX}</arg>
+<status status="PASS" starttime="20221117 22:16:12.360" endtime="20221117 22:16:12.360"/>
 </kw>
-<status status="FAIL" starttime="20221117 21:34:39.527" endtime="20221117 21:34:39.528">Keyword with same name defined multiple times.</status>
+<kw name="Initialize Character Yposition With" library="MoveLibrary">
+<arg>${startingY}</arg>
+<status status="PASS" starttime="20221117 22:16:12.360" endtime="20221117 22:16:12.360"/>
+</kw>
+<kw name="Move In Direction" library="MoveLibrary">
+<arg>${direction}</arg>
+<msg timestamp="20221117 22:16:12.360" level="INFO">Set character position state for testing
+Moved NORTH</msg>
+<status status="PASS" starttime="20221117 22:16:12.360" endtime="20221117 22:16:12.360"/>
+</kw>
+<kw name="Character Xposition Should Be" library="MoveLibrary">
+<arg>${endingX}</arg>
+<msg timestamp="20221117 22:16:12.361" level="FAIL">-1 != 0</msg>
+<status status="FAIL" starttime="20221117 22:16:12.360" endtime="20221117 22:16:12.361"/>
+</kw>
+<kw name="Character Yposition Should Be" library="MoveLibrary">
+<arg>${endingY}</arg>
+<status status="NOT RUN" starttime="20221117 22:16:12.362" endtime="20221117 22:16:12.362"/>
+</kw>
+<status status="FAIL" starttime="20221117 22:16:12.359" endtime="20221117 22:16:12.362"/>
+</kw>
+<status status="FAIL" starttime="20221117 22:16:12.359" endtime="20221117 22:16:12.362">-1 != 0</status>
 </test>
-<test id="s1-s3-t2" name="Move on edge of board" line="13">
+<test id="s1-s3-t2" name="Move on edge of board" line="8">
 <kw name="Move character">
 <arg>0</arg>
 <arg>0</arg>
 <arg>SOUTH</arg>
 <arg>0</arg>
 <arg>0</arg>
-<msg timestamp="20221117 21:34:39.529" level="FAIL">Keyword with same name defined multiple times.</msg>
-<status status="FAIL" starttime="20221117 21:34:39.529" endtime="20221117 21:34:39.529"/>
+<kw name="Initialize Character Xposition With" library="MoveLibrary">
+<arg>${startingX}</arg>
+<status status="PASS" starttime="20221117 22:16:12.364" endtime="20221117 22:16:12.364"/>
 </kw>
-<status status="FAIL" starttime="20221117 21:34:39.529" endtime="20221117 21:34:39.530">Keyword with same name defined multiple times.</status>
-</test>
-<test id="s1-s3-t3" name="Move in middle of board" line="31">
-<kw name="Move character">
-<arg>0</arg>
-<arg>0</arg>
-<arg>NORTH</arg>
-<arg>0</arg>
-<arg>1</arg>
-<msg timestamp="20221117 21:34:39.531" level="FAIL">Keyword with same name defined multiple times.</msg>
-<status status="FAIL" starttime="20221117 21:34:39.531" endtime="20221117 21:34:39.531"/>
+<kw name="Initialize Character Yposition With" library="MoveLibrary">
+<arg>${startingY}</arg>
+<status status="PASS" starttime="20221117 22:16:12.364" endtime="20221117 22:16:12.364"/>
 </kw>
-<status status="FAIL" starttime="20221117 21:34:39.530" endtime="20221117 21:34:39.531">Keyword with same name defined multiple times.</status>
-</test>
-<test id="s1-s3-t4" name="Move on edge of board" line="32">
-<kw name="Move character">
-<arg>0</arg>
-<arg>0</arg>
-<arg>SOUTH</arg>
-<arg>0</arg>
-<arg>0</arg>
-<msg timestamp="20221117 21:34:39.532" level="FAIL">Keyword with same name defined multiple times.</msg>
-<status status="FAIL" starttime="20221117 21:34:39.532" endtime="20221117 21:34:39.532"/>
+<kw name="Move In Direction" library="MoveLibrary">
+<arg>${direction}</arg>
+<msg timestamp="20221117 22:16:12.364" level="INFO">Set character position state for testing
+Moved SOUTH</msg>
+<status status="PASS" starttime="20221117 22:16:12.364" endtime="20221117 22:16:12.364"/>
 </kw>
-<status status="FAIL" starttime="20221117 21:34:39.532" endtime="20221117 21:34:39.532">Keyword with same name defined multiple times.</status>
+<kw name="Character Xposition Should Be" library="MoveLibrary">
+<arg>${endingX}</arg>
+<msg timestamp="20221117 22:16:12.365" level="FAIL">-1 != 0</msg>
+<status status="FAIL" starttime="20221117 22:16:12.364" endtime="20221117 22:16:12.365"/>
+</kw>
+<kw name="Character Yposition Should Be" library="MoveLibrary">
+<arg>${endingY}</arg>
+<status status="NOT RUN" starttime="20221117 22:16:12.365" endtime="20221117 22:16:12.365"/>
+</kw>
+<status status="FAIL" starttime="20221117 22:16:12.363" endtime="20221117 22:16:12.365"/>
+</kw>
+<status status="FAIL" starttime="20221117 22:16:12.363" endtime="20221117 22:16:12.366">-1 != 0</status>
 </test>
 <doc>I want to move my character. If they attempt to move past a boundry, the move results in no change in position.</doc>
-<status status="FAIL" starttime="20221117 21:34:39.522" endtime="20221117 21:34:39.533"/>
+<status status="FAIL" starttime="20221117 22:16:12.355" endtime="20221117 22:16:12.366"/>
 </suite>
-<status status="FAIL" starttime="20221117 21:34:39.469" endtime="20221117 21:34:39.534"/>
+<status status="FAIL" starttime="20221117 22:16:12.317" endtime="20221117 22:16:12.367"/>
 </suite>
 <statistics>
 <total>
-<stat pass="4" fail="4" skip="0">All Tests</stat>
+<stat pass="4" fail="2" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="4" fail="4" skip="0" id="s1" name="Robot">Robot</stat>
+<stat pass="4" fail="2" skip="0" id="s1" name="Robot">Robot</stat>
 <stat pass="2" fail="0" skip="0" id="s1-s1" name="Data Driven">Robot.Data Driven</stat>
 <stat pass="2" fail="0" skip="0" id="s1-s2" name="Gherkin">Robot.Gherkin</stat>
-<stat pass="0" fail="4" skip="0" id="s1-s3" name="Move">Robot.Move</stat>
+<stat pass="0" fail="2" skip="0" id="s1-s3" name="Move">Robot.Move</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20221117 21:34:39.464" level="ERROR">Error in file '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/move.robot' on line 2: Non-existing setting '&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD'.</msg>
-<msg timestamp="20221117 21:34:39.464" level="ERROR">Error in file '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/move.robot' on line 4: Non-existing setting '======='.</msg>
-<msg timestamp="20221117 21:34:39.464" level="ERROR">Error in file '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/move.robot' on line 5: Non-existing setting '&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD'.</msg>
-<msg timestamp="20221117 21:34:39.464" level="ERROR">Error in file '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/move.robot' on line 6: Non-existing setting 'Description'.</msg>
-<msg timestamp="20221117 21:34:39.464" level="ERROR">Error in file '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/move.robot' on line 7: Non-existing setting '&gt;&gt;&gt;&gt;&gt;&gt;&gt; 1e95156 (Jared''s second commit)'.</msg>
-<msg timestamp="20221117 21:34:39.523" level="ERROR">Error in file '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/move.robot' on line 35: Creating keyword 'Move character' failed: Keyword with same name defined multiple times.</msg>
-<msg timestamp="20221117 21:34:39.530" level="WARN">Multiple tests with name 'Move in middle of board' executed in suite 'Robot.Move'.</msg>
-<msg timestamp="20221117 21:34:39.531" level="WARN">Multiple tests with name 'Move on edge of board' executed in suite 'Robot.Move'.</msg>
 </errors>
 </robot>
