@@ -34,4 +34,7 @@ class Character:
         curr_pos = [curr_r][curr_c]
         return curr_pos
 
+    def move():
+        
+
 
