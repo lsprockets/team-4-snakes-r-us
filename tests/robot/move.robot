@@ -14,6 +14,6 @@ Move character
     Initialize character xposition with     ${startingX}
     Initialize character yposition with     ${startingY}
     Move in direction                       ${direction}
-    Character xposition should be           $(endingX}
+    Character xposition should be           ${endingX}
     Character yposition should be           ${endingY}
     
