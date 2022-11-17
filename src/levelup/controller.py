@@ -36,3 +36,9 @@ class GameController:
 
     def move(self, direction: Direction) -> None:
         print(f"Moved {direction.name}")
+
+    def set_character_position(self,xycoordinates: tuple) -> None:
+        print(f"Set character position state for testing")
+        # TODO: IMPLEMENT THIS
+    
+
