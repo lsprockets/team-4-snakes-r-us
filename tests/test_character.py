@@ -3,7 +3,7 @@ from unittest import TestCase
 #Test if Character Class Exits
 class Character(TestCase):
     def Character(self):
-        test_controller = Chacter()
+        test_controller = Character()
         
 #def init(self):
     #test_controller = Init()    
