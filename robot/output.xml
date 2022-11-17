@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.10.8 on linux)" generated="20221117 17:26:58.947" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.10.8 on linux)" generated="20221117 17:33:45.317" rpa="false" schemaversion="3">
 <suite id="s1" name="Robot" source="/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot">
 <suite id="s1-s1" name="Data Driven" source="/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/data_driven.robot">
 <test id="s1-s1-t1" name="Arbitrary name" line="7">
@@ -7,91 +7,91 @@
 <arg>Trogdor</arg>
 <arg>Trogdor</arg>
 <kw name="Initialize Controller" library="GameControllerLibrary">
-<status status="PASS" starttime="20221117 17:26:58.983" endtime="20221117 17:26:58.983"/>
+<status status="PASS" starttime="20221117 17:33:45.343" endtime="20221117 17:33:45.344"/>
 </kw>
 <kw name="Create Character With Name" library="GameControllerLibrary">
 <arg>${provided}</arg>
-<status status="PASS" starttime="20221117 17:26:58.984" endtime="20221117 17:26:58.984"/>
+<status status="PASS" starttime="20221117 17:33:45.344" endtime="20221117 17:33:45.344"/>
 </kw>
 <kw name="Character Name Should Be" library="GameControllerLibrary">
 <arg>${actual}</arg>
-<status status="PASS" starttime="20221117 17:26:58.984" endtime="20221117 17:26:58.985"/>
+<status status="PASS" starttime="20221117 17:33:45.344" endtime="20221117 17:33:45.344"/>
 </kw>
-<status status="PASS" starttime="20221117 17:26:58.983" endtime="20221117 17:26:58.985"/>
+<status status="PASS" starttime="20221117 17:33:45.343" endtime="20221117 17:33:45.344"/>
 </kw>
-<status status="PASS" starttime="20221117 17:26:58.982" endtime="20221117 17:26:58.985"/>
+<status status="PASS" starttime="20221117 17:33:45.342" endtime="20221117 17:33:45.344"/>
 </test>
 <test id="s1-s1-t2" name="Blank character name" line="8">
 <kw name="Start new game with character">
 <arg>${EMPTY}</arg>
 <arg>Character</arg>
 <kw name="Initialize Controller" library="GameControllerLibrary">
-<status status="PASS" starttime="20221117 17:26:58.987" endtime="20221117 17:26:58.987"/>
+<status status="PASS" starttime="20221117 17:33:45.346" endtime="20221117 17:33:45.346"/>
 </kw>
 <kw name="Create Character With Name" library="GameControllerLibrary">
 <arg>${provided}</arg>
-<status status="PASS" starttime="20221117 17:26:58.987" endtime="20221117 17:26:58.987"/>
+<status status="PASS" starttime="20221117 17:33:45.346" endtime="20221117 17:33:45.346"/>
 </kw>
 <kw name="Character Name Should Be" library="GameControllerLibrary">
 <arg>${actual}</arg>
-<status status="PASS" starttime="20221117 17:26:58.987" endtime="20221117 17:26:58.988"/>
+<status status="PASS" starttime="20221117 17:33:45.346" endtime="20221117 17:33:45.346"/>
 </kw>
-<status status="PASS" starttime="20221117 17:26:58.986" endtime="20221117 17:26:58.988"/>
+<status status="PASS" starttime="20221117 17:33:45.345" endtime="20221117 17:33:45.347"/>
 </kw>
-<status status="PASS" starttime="20221117 17:26:58.986" endtime="20221117 17:26:58.988"/>
+<status status="PASS" starttime="20221117 17:33:45.345" endtime="20221117 17:33:45.347"/>
 </test>
 <doc>Example test case using the data-driven (table) syntax.</doc>
-<status status="PASS" starttime="20221117 17:26:58.975" endtime="20221117 17:26:58.989"/>
+<status status="PASS" starttime="20221117 17:33:45.337" endtime="20221117 17:33:45.347"/>
 </suite>
 <suite id="s1-s2" name="Gherkin" source="/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/gherkin.robot">
 <test id="s1-s2-t1" name="Game controller initialized with character name" line="6">
 <kw name="Given controller has been initialized">
 <kw name="Initialize Controller" library="GameControllerLibrary">
-<status status="PASS" starttime="20221117 17:26:58.994" endtime="20221117 17:26:58.994"/>
+<status status="PASS" starttime="20221117 17:33:45.351" endtime="20221117 17:33:45.351"/>
 </kw>
-<status status="PASS" starttime="20221117 17:26:58.994" endtime="20221117 17:26:58.994"/>
+<status status="PASS" starttime="20221117 17:33:45.351" endtime="20221117 17:33:45.351"/>
 </kw>
 <kw name="When character is created with name &quot;ArbitraryName&quot;" sourcename="Character is created with name &quot;${provided}&quot;">
 <kw name="Create Character With Name" library="GameControllerLibrary">
 <arg>${provided}</arg>
-<status status="PASS" starttime="20221117 17:26:58.995" endtime="20221117 17:26:58.995"/>
+<status status="PASS" starttime="20221117 17:33:45.352" endtime="20221117 17:33:45.352"/>
 </kw>
-<status status="PASS" starttime="20221117 17:26:58.995" endtime="20221117 17:26:58.995"/>
+<status status="PASS" starttime="20221117 17:33:45.351" endtime="20221117 17:33:45.352"/>
 </kw>
 <kw name="Then actual character name is &quot;ArbitraryName&quot;" sourcename="Actual character name is &quot;${actual}&quot;">
 <kw name="Character Name Should Be" library="GameControllerLibrary">
 <arg>${actual}</arg>
-<status status="PASS" starttime="20221117 17:26:58.996" endtime="20221117 17:26:58.996"/>
+<status status="PASS" starttime="20221117 17:33:45.352" endtime="20221117 17:33:45.352"/>
 </kw>
-<status status="PASS" starttime="20221117 17:26:58.995" endtime="20221117 17:26:58.996"/>
+<status status="PASS" starttime="20221117 17:33:45.352" endtime="20221117 17:33:45.353"/>
 </kw>
-<status status="PASS" starttime="20221117 17:26:58.993" endtime="20221117 17:26:58.996"/>
+<status status="PASS" starttime="20221117 17:33:45.350" endtime="20221117 17:33:45.353"/>
 </test>
 <test id="s1-s2-t2" name="Game controller initialized without character name" line="11">
 <kw name="Given controller has been initialized">
 <kw name="Initialize Controller" library="GameControllerLibrary">
-<status status="PASS" starttime="20221117 17:26:58.998" endtime="20221117 17:26:58.998"/>
+<status status="PASS" starttime="20221117 17:33:45.354" endtime="20221117 17:33:45.354"/>
 </kw>
-<status status="PASS" starttime="20221117 17:26:58.997" endtime="20221117 17:26:58.998"/>
+<status status="PASS" starttime="20221117 17:33:45.353" endtime="20221117 17:33:45.354"/>
 </kw>
 <kw name="When character is created with name &quot;&quot;" sourcename="Character is created with name &quot;${provided}&quot;">
 <kw name="Create Character With Name" library="GameControllerLibrary">
 <arg>${provided}</arg>
-<status status="PASS" starttime="20221117 17:26:58.998" endtime="20221117 17:26:58.999"/>
+<status status="PASS" starttime="20221117 17:33:45.354" endtime="20221117 17:33:45.354"/>
 </kw>
-<status status="PASS" starttime="20221117 17:26:58.998" endtime="20221117 17:26:58.999"/>
+<status status="PASS" starttime="20221117 17:33:45.354" endtime="20221117 17:33:45.354"/>
 </kw>
 <kw name="Then actual character name is &quot;Character&quot;" sourcename="Actual character name is &quot;${actual}&quot;">
 <kw name="Character Name Should Be" library="GameControllerLibrary">
 <arg>${actual}</arg>
-<status status="PASS" starttime="20221117 17:26:58.999" endtime="20221117 17:26:58.999"/>
+<status status="PASS" starttime="20221117 17:33:45.355" endtime="20221117 17:33:45.355"/>
 </kw>
-<status status="PASS" starttime="20221117 17:26:58.999" endtime="20221117 17:26:58.999"/>
+<status status="PASS" starttime="20221117 17:33:45.355" endtime="20221117 17:33:45.355"/>
 </kw>
-<status status="PASS" starttime="20221117 17:26:58.997" endtime="20221117 17:26:59.000"/>
+<status status="PASS" starttime="20221117 17:33:45.353" endtime="20221117 17:33:45.355"/>
 </test>
 <doc>Example test case using the gherkin syntax.</doc>
-<status status="PASS" starttime="20221117 17:26:58.990" endtime="20221117 17:26:59.000"/>
+<status status="PASS" starttime="20221117 17:33:45.348" endtime="20221117 17:33:45.355"/>
 </suite>
 <suite id="s1-s3" name="Move" source="/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/move.robot">
 <test id="s1-s3-t1" name="Move in middle of board" line="7">
@@ -103,28 +103,28 @@
 <arg>1</arg>
 <kw name="Initialize Character Xposition With" library="MoveLibrary">
 <arg>${startingX}</arg>
-<status status="PASS" starttime="20221117 17:26:59.007" endtime="20221117 17:26:59.008"/>
+<status status="PASS" starttime="20221117 17:33:45.360" endtime="20221117 17:33:45.360"/>
 </kw>
 <kw name="Initialize Character Yposition With" library="MoveLibrary">
 <arg>${startingY}</arg>
-<status status="PASS" starttime="20221117 17:26:59.008" endtime="20221117 17:26:59.008"/>
+<status status="PASS" starttime="20221117 17:33:45.360" endtime="20221117 17:33:45.361"/>
 </kw>
 <kw name="Move In Direction" library="MoveLibrary">
 <arg>${direction}</arg>
-<msg timestamp="20221117 17:26:59.009" level="FAIL">AttributeError: 'GameController' object has no attribute 'set_character_position'</msg>
-<status status="FAIL" starttime="20221117 17:26:59.008" endtime="20221117 17:26:59.009"/>
+<msg timestamp="20221117 17:33:45.361" level="FAIL">AttributeError: 'GameController' object has no attribute 'set_character_position'</msg>
+<status status="FAIL" starttime="20221117 17:33:45.361" endtime="20221117 17:33:45.362"/>
 </kw>
 <kw name="Character Xposition Should Be" library="MoveLibrary">
 <arg>${endingX}</arg>
-<status status="NOT RUN" starttime="20221117 17:26:59.009" endtime="20221117 17:26:59.009"/>
+<status status="NOT RUN" starttime="20221117 17:33:45.362" endtime="20221117 17:33:45.362"/>
 </kw>
 <kw name="Character Yposition Should Be" library="MoveLibrary">
 <arg>${endingY}</arg>
-<status status="NOT RUN" starttime="20221117 17:26:59.009" endtime="20221117 17:26:59.010"/>
+<status status="NOT RUN" starttime="20221117 17:33:45.362" endtime="20221117 17:33:45.362"/>
 </kw>
-<status status="FAIL" starttime="20221117 17:26:59.007" endtime="20221117 17:26:59.010"/>
+<status status="FAIL" starttime="20221117 17:33:45.360" endtime="20221117 17:33:45.362"/>
 </kw>
-<status status="FAIL" starttime="20221117 17:26:59.006" endtime="20221117 17:26:59.010">AttributeError: 'GameController' object has no attribute 'set_character_position'</status>
+<status status="FAIL" starttime="20221117 17:33:45.359" endtime="20221117 17:33:45.363">AttributeError: 'GameController' object has no attribute 'set_character_position'</status>
 </test>
 <test id="s1-s3-t2" name="Move on edge of board" line="8">
 <kw name="Move character">
@@ -135,33 +135,33 @@
 <arg>0</arg>
 <kw name="Initialize Character Xposition With" library="MoveLibrary">
 <arg>${startingX}</arg>
-<status status="PASS" starttime="20221117 17:26:59.012" endtime="20221117 17:26:59.012"/>
+<status status="PASS" starttime="20221117 17:33:45.364" endtime="20221117 17:33:45.364"/>
 </kw>
 <kw name="Initialize Character Yposition With" library="MoveLibrary">
 <arg>${startingY}</arg>
-<status status="PASS" starttime="20221117 17:26:59.012" endtime="20221117 17:26:59.013"/>
+<status status="PASS" starttime="20221117 17:33:45.364" endtime="20221117 17:33:45.364"/>
 </kw>
 <kw name="Move In Direction" library="MoveLibrary">
 <arg>${direction}</arg>
-<msg timestamp="20221117 17:26:59.013" level="FAIL">AttributeError: 'GameController' object has no attribute 'set_character_position'</msg>
-<status status="FAIL" starttime="20221117 17:26:59.013" endtime="20221117 17:26:59.013"/>
+<msg timestamp="20221117 17:33:45.365" level="FAIL">AttributeError: 'GameController' object has no attribute 'set_character_position'</msg>
+<status status="FAIL" starttime="20221117 17:33:45.364" endtime="20221117 17:33:45.365"/>
 </kw>
 <kw name="Character Xposition Should Be" library="MoveLibrary">
 <arg>${endingX}</arg>
-<status status="NOT RUN" starttime="20221117 17:26:59.014" endtime="20221117 17:26:59.014"/>
+<status status="NOT RUN" starttime="20221117 17:33:45.365" endtime="20221117 17:33:45.365"/>
 </kw>
 <kw name="Character Yposition Should Be" library="MoveLibrary">
 <arg>${endingY}</arg>
-<status status="NOT RUN" starttime="20221117 17:26:59.014" endtime="20221117 17:26:59.014"/>
+<status status="NOT RUN" starttime="20221117 17:33:45.365" endtime="20221117 17:33:45.365"/>
 </kw>
-<status status="FAIL" starttime="20221117 17:26:59.012" endtime="20221117 17:26:59.014"/>
+<status status="FAIL" starttime="20221117 17:33:45.363" endtime="20221117 17:33:45.365"/>
 </kw>
-<status status="FAIL" starttime="20221117 17:26:59.011" endtime="20221117 17:26:59.015">AttributeError: 'GameController' object has no attribute 'set_character_position'</status>
+<status status="FAIL" starttime="20221117 17:33:45.363" endtime="20221117 17:33:45.366">AttributeError: 'GameController' object has no attribute 'set_character_position'</status>
 </test>
 <doc>I want to move my character. If they attempt to move past a boundry, the move results in no change in position.</doc>
-<status status="FAIL" starttime="20221117 17:26:59.002" endtime="20221117 17:26:59.016"/>
+<status status="FAIL" starttime="20221117 17:33:45.356" endtime="20221117 17:33:45.366"/>
 </suite>
-<status status="FAIL" starttime="20221117 17:26:58.948" endtime="20221117 17:26:59.017"/>
+<status status="FAIL" starttime="20221117 17:33:45.318" endtime="20221117 17:33:45.367"/>
 </suite>
 <statistics>
 <total>
