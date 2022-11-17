@@ -1,14 +1,15 @@
 from unittest import TestCase
+from levelup.character import Character
 
 #Test if Character Class Exists
-class Character(TestCase):
+class Test_Character(TestCase):
     def test_init(self):
-        test_controller = Character()
-        expected_class = Character()
-        self.assertion
+        testobj = Character('Fred')
+        expected_name = 'Fred'
+        self.assertEqual(testobj.name, expected_name)
 
 # Test if Init Method Exist
-    def test_init(self):
+    #def test_init(self):
         #test_controller = Init()  
         #expected_method = Init()  
         
