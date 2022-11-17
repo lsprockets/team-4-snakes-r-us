@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.10.8 on linux)" generated="20221117 23:32:08.208" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.10.8 on linux)" generated="20221117 23:44:24.537" rpa="false" schemaversion="3">
 <suite id="s1" name="Robot" source="/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot">
 <suite id="s1-s1" name="Data Driven" source="/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/data_driven.robot">
 <test id="s1-s1-t1" name="Arbitrary name" line="7">
@@ -7,79 +7,79 @@
 <arg>Trogdor</arg>
 <arg>Trogdor</arg>
 <kw name="Initialize controller">
-<msg timestamp="20221117 23:32:08.239" level="FAIL">No keyword with name 'Initialize controller' found.</msg>
-<status status="FAIL" starttime="20221117 23:32:08.239" endtime="20221117 23:32:08.239"/>
+<msg timestamp="20221117 23:44:24.564" level="FAIL">No keyword with name 'Initialize controller' found.</msg>
+<status status="FAIL" starttime="20221117 23:44:24.563" endtime="20221117 23:44:24.564"/>
 </kw>
 <kw name="Create character with name">
 <arg>${provided}</arg>
-<status status="NOT RUN" starttime="20221117 23:32:08.241" endtime="20221117 23:32:08.241"/>
+<status status="NOT RUN" starttime="20221117 23:44:24.565" endtime="20221117 23:44:24.565"/>
 </kw>
 <kw name="Character name should be">
 <arg>${actual}</arg>
-<status status="NOT RUN" starttime="20221117 23:32:08.243" endtime="20221117 23:32:08.243"/>
+<status status="NOT RUN" starttime="20221117 23:44:24.567" endtime="20221117 23:44:24.567"/>
 </kw>
-<status status="FAIL" starttime="20221117 23:32:08.237" endtime="20221117 23:32:08.243"/>
+<status status="FAIL" starttime="20221117 23:44:24.562" endtime="20221117 23:44:24.567"/>
 </kw>
-<status status="FAIL" starttime="20221117 23:32:08.237" endtime="20221117 23:32:08.244">No keyword with name 'Initialize controller' found.</status>
+<status status="FAIL" starttime="20221117 23:44:24.561" endtime="20221117 23:44:24.568">No keyword with name 'Initialize controller' found.</status>
 </test>
 <test id="s1-s1-t2" name="Blank character name" line="8">
 <kw name="Start new game with character">
 <arg>${EMPTY}</arg>
 <arg>Character</arg>
 <kw name="Initialize controller">
-<msg timestamp="20221117 23:32:08.246" level="FAIL">No keyword with name 'Initialize controller' found.</msg>
-<status status="FAIL" starttime="20221117 23:32:08.246" endtime="20221117 23:32:08.246"/>
+<msg timestamp="20221117 23:44:24.570" level="FAIL">No keyword with name 'Initialize controller' found.</msg>
+<status status="FAIL" starttime="20221117 23:44:24.570" endtime="20221117 23:44:24.570"/>
 </kw>
 <kw name="Create character with name">
 <arg>${provided}</arg>
-<status status="NOT RUN" starttime="20221117 23:32:08.248" endtime="20221117 23:32:08.248"/>
+<status status="NOT RUN" starttime="20221117 23:44:24.572" endtime="20221117 23:44:24.572"/>
 </kw>
 <kw name="Character name should be">
 <arg>${actual}</arg>
-<status status="NOT RUN" starttime="20221117 23:32:08.249" endtime="20221117 23:32:08.249"/>
+<status status="NOT RUN" starttime="20221117 23:44:24.573" endtime="20221117 23:44:24.573"/>
 </kw>
-<status status="FAIL" starttime="20221117 23:32:08.244" endtime="20221117 23:32:08.250"/>
+<status status="FAIL" starttime="20221117 23:44:24.568" endtime="20221117 23:44:24.574"/>
 </kw>
-<status status="FAIL" starttime="20221117 23:32:08.244" endtime="20221117 23:32:08.250">No keyword with name 'Initialize controller' found.</status>
+<status status="FAIL" starttime="20221117 23:44:24.568" endtime="20221117 23:44:24.574">No keyword with name 'Initialize controller' found.</status>
 </test>
 <doc>Example test case using the data-driven (table) syntax.</doc>
-<status status="FAIL" starttime="20221117 23:32:08.233" endtime="20221117 23:32:08.251"/>
+<status status="FAIL" starttime="20221117 23:44:24.557" endtime="20221117 23:44:24.574"/>
 </suite>
 <suite id="s1-s2" name="Gherkin" source="/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/gherkin.robot">
 <test id="s1-s2-t1" name="Game controller initialized with character name" line="6">
 <kw name="Given controller has been initialized">
 <kw name="Initialize controller">
-<msg timestamp="20221117 23:32:08.257" level="FAIL">No keyword with name 'Initialize controller' found.</msg>
-<status status="FAIL" starttime="20221117 23:32:08.257" endtime="20221117 23:32:08.257"/>
+<msg timestamp="20221117 23:44:24.580" level="FAIL">No keyword with name 'Initialize controller' found.</msg>
+<status status="FAIL" starttime="20221117 23:44:24.580" endtime="20221117 23:44:24.580"/>
 </kw>
-<status status="FAIL" starttime="20221117 23:32:08.256" endtime="20221117 23:32:08.258"/>
+<status status="FAIL" starttime="20221117 23:44:24.579" endtime="20221117 23:44:24.581"/>
 </kw>
 <kw name="When character is created with name &quot;ArbitraryName&quot;" sourcename="Character is created with name &quot;${provided}&quot;">
-<status status="NOT RUN" starttime="20221117 23:32:08.258" endtime="20221117 23:32:08.258"/>
+<status status="NOT RUN" starttime="20221117 23:44:24.581" endtime="20221117 23:44:24.581"/>
 </kw>
 <kw name="Then actual character name is &quot;ArbitraryName&quot;" sourcename="Actual character name is &quot;${actual}&quot;">
-<status status="NOT RUN" starttime="20221117 23:32:08.258" endtime="20221117 23:32:08.258"/>
+<status status="NOT RUN" starttime="20221117 23:44:24.581" endtime="20221117 23:44:24.581"/>
 </kw>
-<status status="FAIL" starttime="20221117 23:32:08.255" endtime="20221117 23:32:08.259">No keyword with name 'Initialize controller' found.</status>
+<status status="FAIL" starttime="20221117 23:44:24.578" endtime="20221117 23:44:24.582">No keyword with name 'Initialize controller' found.</status>
 </test>
 <test id="s1-s2-t2" name="Game controller initialized without character name" line="11">
 <kw name="Given controller has been initialized">
 <kw name="Initialize controller">
-<msg timestamp="20221117 23:32:08.261" level="FAIL">No keyword with name 'Initialize controller' found.</msg>
-<status status="FAIL" starttime="20221117 23:32:08.261" endtime="20221117 23:32:08.261"/>
+<msg timestamp="20221117 23:44:24.584" level="FAIL">No keyword with name 'Initialize controller' found.</msg>
+<status status="FAIL" starttime="20221117 23:44:24.584" endtime="20221117 23:44:24.584"/>
 </kw>
-<status status="FAIL" starttime="20221117 23:32:08.259" endtime="20221117 23:32:08.262"/>
+<status status="FAIL" starttime="20221117 23:44:24.582" endtime="20221117 23:44:24.584"/>
 </kw>
 <kw name="When character is created with name &quot;&quot;" sourcename="Character is created with name &quot;${provided}&quot;">
-<status status="NOT RUN" starttime="20221117 23:32:08.262" endtime="20221117 23:32:08.262"/>
+<status status="NOT RUN" starttime="20221117 23:44:24.585" endtime="20221117 23:44:24.585"/>
 </kw>
 <kw name="Then actual character name is &quot;Character&quot;" sourcename="Actual character name is &quot;${actual}&quot;">
-<status status="NOT RUN" starttime="20221117 23:32:08.262" endtime="20221117 23:32:08.262"/>
+<status status="NOT RUN" starttime="20221117 23:44:24.585" endtime="20221117 23:44:24.585"/>
 </kw>
-<status status="FAIL" starttime="20221117 23:32:08.259" endtime="20221117 23:32:08.262">No keyword with name 'Initialize controller' found.</status>
+<status status="FAIL" starttime="20221117 23:44:24.582" endtime="20221117 23:44:24.585">No keyword with name 'Initialize controller' found.</status>
 </test>
 <doc>Example test case using the gherkin syntax.</doc>
-<status status="FAIL" starttime="20221117 23:32:08.252" endtime="20221117 23:32:08.263"/>
+<status status="FAIL" starttime="20221117 23:44:24.575" endtime="20221117 23:44:24.585"/>
 </suite>
 <suite id="s1-s3" name="Move" source="/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/move.robot">
 <test id="s1-s3-t1" name="Move in middle of board" line="7">
@@ -91,28 +91,28 @@
 <arg>1</arg>
 <kw name="Initialize character xposition with">
 <arg>${startingX}</arg>
-<msg timestamp="20221117 23:32:08.270" level="FAIL">No keyword with name 'Initialize character xposition with' found.</msg>
-<status status="FAIL" starttime="20221117 23:32:08.270" endtime="20221117 23:32:08.270"/>
+<msg timestamp="20221117 23:44:24.591" level="FAIL">No keyword with name 'Initialize character xposition with' found.</msg>
+<status status="FAIL" starttime="20221117 23:44:24.591" endtime="20221117 23:44:24.591"/>
 </kw>
 <kw name="Initialize character yposition with">
 <arg>${startingY}</arg>
-<status status="NOT RUN" starttime="20221117 23:32:08.271" endtime="20221117 23:32:08.271"/>
+<status status="NOT RUN" starttime="20221117 23:44:24.593" endtime="20221117 23:44:24.593"/>
 </kw>
 <kw name="Move in direction">
 <arg>${direction}</arg>
-<status status="NOT RUN" starttime="20221117 23:32:08.273" endtime="20221117 23:32:08.273"/>
+<status status="NOT RUN" starttime="20221117 23:44:24.594" endtime="20221117 23:44:24.594"/>
 </kw>
 <kw name="Character xposition should be">
 <arg>${endingX}</arg>
-<status status="NOT RUN" starttime="20221117 23:32:08.274" endtime="20221117 23:32:08.274"/>
+<status status="NOT RUN" starttime="20221117 23:44:24.595" endtime="20221117 23:44:24.595"/>
 </kw>
 <kw name="Character yposition should be">
 <arg>${endingY}</arg>
-<status status="NOT RUN" starttime="20221117 23:32:08.275" endtime="20221117 23:32:08.275"/>
+<status status="NOT RUN" starttime="20221117 23:44:24.597" endtime="20221117 23:44:24.597"/>
 </kw>
-<status status="FAIL" starttime="20221117 23:32:08.268" endtime="20221117 23:32:08.275"/>
+<status status="FAIL" starttime="20221117 23:44:24.590" endtime="20221117 23:44:24.597"/>
 </kw>
-<status status="FAIL" starttime="20221117 23:32:08.267" endtime="20221117 23:32:08.276">No keyword with name 'Initialize character xposition with' found.</status>
+<status status="FAIL" starttime="20221117 23:44:24.589" endtime="20221117 23:44:24.597">No keyword with name 'Initialize character xposition with' found.</status>
 </test>
 <test id="s1-s3-t2" name="Move on edge of board" line="8">
 <kw name="Move character">
@@ -123,33 +123,33 @@
 <arg>0</arg>
 <kw name="Initialize character xposition with">
 <arg>${startingX}</arg>
-<msg timestamp="20221117 23:32:08.278" level="FAIL">No keyword with name 'Initialize character xposition with' found.</msg>
-<status status="FAIL" starttime="20221117 23:32:08.278" endtime="20221117 23:32:08.278"/>
+<msg timestamp="20221117 23:44:24.599" level="FAIL">No keyword with name 'Initialize character xposition with' found.</msg>
+<status status="FAIL" starttime="20221117 23:44:24.599" endtime="20221117 23:44:24.599"/>
 </kw>
 <kw name="Initialize character yposition with">
 <arg>${startingY}</arg>
-<status status="NOT RUN" starttime="20221117 23:32:08.279" endtime="20221117 23:32:08.279"/>
+<status status="NOT RUN" starttime="20221117 23:44:24.601" endtime="20221117 23:44:24.601"/>
 </kw>
 <kw name="Move in direction">
 <arg>${direction}</arg>
-<status status="NOT RUN" starttime="20221117 23:32:08.281" endtime="20221117 23:32:08.281"/>
+<status status="NOT RUN" starttime="20221117 23:44:24.602" endtime="20221117 23:44:24.602"/>
 </kw>
 <kw name="Character xposition should be">
 <arg>${endingX}</arg>
-<status status="NOT RUN" starttime="20221117 23:32:08.282" endtime="20221117 23:32:08.282"/>
+<status status="NOT RUN" starttime="20221117 23:44:24.603" endtime="20221117 23:44:24.603"/>
 </kw>
 <kw name="Character yposition should be">
 <arg>${endingY}</arg>
-<status status="NOT RUN" starttime="20221117 23:32:08.283" endtime="20221117 23:32:08.283"/>
+<status status="NOT RUN" starttime="20221117 23:44:24.604" endtime="20221117 23:44:24.604"/>
 </kw>
-<status status="FAIL" starttime="20221117 23:32:08.276" endtime="20221117 23:32:08.284"/>
+<status status="FAIL" starttime="20221117 23:44:24.598" endtime="20221117 23:44:24.605"/>
 </kw>
-<status status="FAIL" starttime="20221117 23:32:08.276" endtime="20221117 23:32:08.284">No keyword with name 'Initialize character xposition with' found.</status>
+<status status="FAIL" starttime="20221117 23:44:24.597" endtime="20221117 23:44:24.605">No keyword with name 'Initialize character xposition with' found.</status>
 </test>
 <doc>I want to move my character. If they attempt to move past a boundry, the move results in no change in position.</doc>
-<status status="FAIL" starttime="20221117 23:32:08.264" endtime="20221117 23:32:08.284"/>
+<status status="FAIL" starttime="20221117 23:44:24.586" endtime="20221117 23:44:24.605"/>
 </suite>
-<status status="FAIL" starttime="20221117 23:32:08.208" endtime="20221117 23:32:08.285"/>
+<status status="FAIL" starttime="20221117 23:44:24.538" endtime="20221117 23:44:24.606"/>
 </suite>
 <statistics>
 <total>
@@ -165,7 +165,7 @@
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20221117 23:32:08.236" level="ERROR">Error in file '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/data_driven.robot' on line 4: Importing library '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/GameControllerLibrary.py' failed: IndentationError: expected an indented block after function definition on line 37 (character.py, line 40)
+<msg timestamp="20221117 23:44:24.560" level="ERROR">Error in file '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/data_driven.robot' on line 4: Importing library '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/GameControllerLibrary.py' failed: IndentationError: expected an indented block after function definition on line 37 (character.py, line 40)
 Traceback (most recent call last):
   File "/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/GameControllerLibrary.py", line 1, in &lt;module&gt;
     from levelup.controller import GameController
@@ -179,7 +179,7 @@ PYTHONPATH:
   /opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10
   /opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/lib-dynload
   /opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages</msg>
-<msg timestamp="20221117 23:32:08.254" level="ERROR">Error in file '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/gherkin.robot' on line 3: Importing library '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/GameControllerLibrary.py' failed: IndentationError: expected an indented block after function definition on line 37 (character.py, line 40)
+<msg timestamp="20221117 23:44:24.578" level="ERROR">Error in file '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/gherkin.robot' on line 3: Importing library '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/GameControllerLibrary.py' failed: IndentationError: expected an indented block after function definition on line 37 (character.py, line 40)
 Traceback (most recent call last):
   File "/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/GameControllerLibrary.py", line 1, in &lt;module&gt;
     from levelup.controller import GameController
@@ -193,7 +193,7 @@ PYTHONPATH:
   /opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10
   /opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/lib-dynload
   /opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages</msg>
-<msg timestamp="20221117 23:32:08.267" level="ERROR">Error in file '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/move.robot' on line 4: Importing library '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/MoveLibrary.py' failed: IndentationError: expected an indented block after function definition on line 37 (character.py, line 40)
+<msg timestamp="20221117 23:44:24.589" level="ERROR">Error in file '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/move.robot' on line 4: Importing library '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/MoveLibrary.py' failed: IndentationError: expected an indented block after function definition on line 37 (character.py, line 40)
 Traceback (most recent call last):
   File "/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/MoveLibrary.py", line 1, in &lt;module&gt;
     from levelup.controller import GameController
