@@ -15,8 +15,14 @@ class Test_Character(TestCase):
         
 #Test getName Method exists
 
-#Test enterMap Method exists
 
+#Test enterMap Method exists
+def test_enter_map(self):
+    testObject = setmap()
+    expected = int()
+    actualValue = testObject.self
+    self.assertEqual(actualValue, expected)
+    
 #Test setMap Method exists
 def test_init(self):
     testobj = Character.setMap(5)
@@ -24,4 +30,5 @@ def test_init(self):
     self.assertEqual(testobj.Character.setMap, expected_value)
 
 #Test SetPosition Method
+
 
