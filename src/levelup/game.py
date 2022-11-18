@@ -35,7 +35,7 @@ print("                 Level Up Games!")
 print("            Your Next Adventure Awaits")
 print("")
 print("")
-print("")                           ___
+print("")                           
 print("                          ( ((")
 print("                           ) ))")
 print("  .::.                    / /(")
