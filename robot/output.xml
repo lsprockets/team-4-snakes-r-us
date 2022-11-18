@@ -1,85 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.10.8 on linux)" generated="20221118 16:57:58.259" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.10.8 on linux)" generated="20221118 17:17:41.915" rpa="false" schemaversion="3">
 <suite id="s1" name="Robot" source="/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot">
 <suite id="s1-s1" name="Data Driven" source="/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/data_driven.robot">
 <test id="s1-s1-t1" name="Arbitrary name" line="7">
 <kw name="Start new game with character">
 <arg>Trogdor</arg>
 <arg>Trogdor</arg>
-<kw name="Initialize controller">
-<msg timestamp="20221118 16:57:58.285" level="FAIL">No keyword with name 'Initialize controller' found.</msg>
-<status status="FAIL" starttime="20221118 16:57:58.285" endtime="20221118 16:57:58.285"/>
+<kw name="Initialize Controller" library="GameControllerLibrary">
+<status status="PASS" starttime="20221118 17:17:41.943" endtime="20221118 17:17:41.943"/>
 </kw>
-<kw name="Create character with name">
+<kw name="Create Character With Name" library="GameControllerLibrary">
 <arg>${provided}</arg>
-<status status="NOT RUN" starttime="20221118 16:57:58.287" endtime="20221118 16:57:58.287"/>
+<status status="PASS" starttime="20221118 17:17:41.943" endtime="20221118 17:17:41.943"/>
 </kw>
-<kw name="Character name should be">
+<kw name="Character Name Should Be" library="GameControllerLibrary">
 <arg>${actual}</arg>
-<status status="NOT RUN" starttime="20221118 16:57:58.289" endtime="20221118 16:57:58.289"/>
+<status status="PASS" starttime="20221118 17:17:41.944" endtime="20221118 17:17:41.944"/>
 </kw>
-<status status="FAIL" starttime="20221118 16:57:58.283" endtime="20221118 16:57:58.289"/>
+<status status="PASS" starttime="20221118 17:17:41.942" endtime="20221118 17:17:41.944"/>
 </kw>
-<status status="FAIL" starttime="20221118 16:57:58.283" endtime="20221118 16:57:58.289">No keyword with name 'Initialize controller' found.</status>
+<status status="PASS" starttime="20221118 17:17:41.942" endtime="20221118 17:17:41.944"/>
 </test>
 <test id="s1-s1-t2" name="Blank character name" line="8">
 <kw name="Start new game with character">
 <arg>${EMPTY}</arg>
 <arg>Character</arg>
-<kw name="Initialize controller">
-<msg timestamp="20221118 16:57:58.292" level="FAIL">No keyword with name 'Initialize controller' found.</msg>
-<status status="FAIL" starttime="20221118 16:57:58.292" endtime="20221118 16:57:58.292"/>
+<kw name="Initialize Controller" library="GameControllerLibrary">
+<status status="PASS" starttime="20221118 17:17:41.945" endtime="20221118 17:17:41.946"/>
 </kw>
-<kw name="Create character with name">
+<kw name="Create Character With Name" library="GameControllerLibrary">
 <arg>${provided}</arg>
-<status status="NOT RUN" starttime="20221118 16:57:58.294" endtime="20221118 16:57:58.294"/>
+<status status="PASS" starttime="20221118 17:17:41.946" endtime="20221118 17:17:41.946"/>
 </kw>
-<kw name="Character name should be">
+<kw name="Character Name Should Be" library="GameControllerLibrary">
 <arg>${actual}</arg>
-<status status="NOT RUN" starttime="20221118 16:57:58.295" endtime="20221118 16:57:58.295"/>
+<status status="PASS" starttime="20221118 17:17:41.946" endtime="20221118 17:17:41.946"/>
 </kw>
-<status status="FAIL" starttime="20221118 16:57:58.290" endtime="20221118 16:57:58.296"/>
+<status status="PASS" starttime="20221118 17:17:41.945" endtime="20221118 17:17:41.946"/>
 </kw>
-<status status="FAIL" starttime="20221118 16:57:58.290" endtime="20221118 16:57:58.296">No keyword with name 'Initialize controller' found.</status>
+<status status="PASS" starttime="20221118 17:17:41.944" endtime="20221118 17:17:41.946"/>
 </test>
 <doc>Example test case using the data-driven (table) syntax.</doc>
-<status status="FAIL" starttime="20221118 16:57:58.279" endtime="20221118 16:57:58.296"/>
+<status status="PASS" starttime="20221118 17:17:41.936" endtime="20221118 17:17:41.947"/>
 </suite>
 <suite id="s1-s2" name="Gherkin" source="/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/gherkin.robot">
 <test id="s1-s2-t1" name="Game controller initialized with character name" line="6">
 <kw name="Given controller has been initialized">
-<kw name="Initialize controller">
-<msg timestamp="20221118 16:57:58.302" level="FAIL">No keyword with name 'Initialize controller' found.</msg>
-<status status="FAIL" starttime="20221118 16:57:58.302" endtime="20221118 16:57:58.302"/>
+<kw name="Initialize Controller" library="GameControllerLibrary">
+<status status="PASS" starttime="20221118 17:17:41.950" endtime="20221118 17:17:41.951"/>
 </kw>
-<status status="FAIL" starttime="20221118 16:57:58.301" endtime="20221118 16:57:58.303"/>
+<status status="PASS" starttime="20221118 17:17:41.950" endtime="20221118 17:17:41.951"/>
 </kw>
 <kw name="When character is created with name &quot;ArbitraryName&quot;" sourcename="Character is created with name &quot;${provided}&quot;">
-<status status="NOT RUN" starttime="20221118 16:57:58.303" endtime="20221118 16:57:58.303"/>
+<kw name="Create Character With Name" library="GameControllerLibrary">
+<arg>${provided}</arg>
+<status status="PASS" starttime="20221118 17:17:41.951" endtime="20221118 17:17:41.951"/>
+</kw>
+<status status="PASS" starttime="20221118 17:17:41.951" endtime="20221118 17:17:41.951"/>
 </kw>
 <kw name="Then actual character name is &quot;ArbitraryName&quot;" sourcename="Actual character name is &quot;${actual}&quot;">
-<status status="NOT RUN" starttime="20221118 16:57:58.303" endtime="20221118 16:57:58.303"/>
+<kw name="Character Name Should Be" library="GameControllerLibrary">
+<arg>${actual}</arg>
+<status status="PASS" starttime="20221118 17:17:41.952" endtime="20221118 17:17:41.952"/>
 </kw>
-<status status="FAIL" starttime="20221118 16:57:58.300" endtime="20221118 16:57:58.304">No keyword with name 'Initialize controller' found.</status>
+<status status="PASS" starttime="20221118 17:17:41.952" endtime="20221118 17:17:41.952"/>
+</kw>
+<status status="PASS" starttime="20221118 17:17:41.950" endtime="20221118 17:17:41.952"/>
 </test>
 <test id="s1-s2-t2" name="Game controller initialized without character name" line="11">
 <kw name="Given controller has been initialized">
-<kw name="Initialize controller">
-<msg timestamp="20221118 16:57:58.306" level="FAIL">No keyword with name 'Initialize controller' found.</msg>
-<status status="FAIL" starttime="20221118 16:57:58.306" endtime="20221118 16:57:58.306"/>
+<kw name="Initialize Controller" library="GameControllerLibrary">
+<status status="PASS" starttime="20221118 17:17:41.953" endtime="20221118 17:17:41.953"/>
 </kw>
-<status status="FAIL" starttime="20221118 16:57:58.304" endtime="20221118 16:57:58.306"/>
+<status status="PASS" starttime="20221118 17:17:41.953" endtime="20221118 17:17:41.953"/>
 </kw>
 <kw name="When character is created with name &quot;&quot;" sourcename="Character is created with name &quot;${provided}&quot;">
-<status status="NOT RUN" starttime="20221118 16:57:58.307" endtime="20221118 16:57:58.307"/>
+<kw name="Create Character With Name" library="GameControllerLibrary">
+<arg>${provided}</arg>
+<status status="PASS" starttime="20221118 17:17:41.954" endtime="20221118 17:17:41.954"/>
+</kw>
+<status status="PASS" starttime="20221118 17:17:41.954" endtime="20221118 17:17:41.954"/>
 </kw>
 <kw name="Then actual character name is &quot;Character&quot;" sourcename="Actual character name is &quot;${actual}&quot;">
-<status status="NOT RUN" starttime="20221118 16:57:58.307" endtime="20221118 16:57:58.307"/>
+<kw name="Character Name Should Be" library="GameControllerLibrary">
+<arg>${actual}</arg>
+<status status="PASS" starttime="20221118 17:17:41.954" endtime="20221118 17:17:41.955"/>
 </kw>
-<status status="FAIL" starttime="20221118 16:57:58.304" endtime="20221118 16:57:58.307">No keyword with name 'Initialize controller' found.</status>
+<status status="PASS" starttime="20221118 17:17:41.954" endtime="20221118 17:17:41.955"/>
+</kw>
+<status status="PASS" starttime="20221118 17:17:41.952" endtime="20221118 17:17:41.955"/>
 </test>
 <doc>Example test case using the gherkin syntax.</doc>
-<status status="FAIL" starttime="20221118 16:57:58.297" endtime="20221118 16:57:58.307"/>
+<status status="PASS" starttime="20221118 17:17:41.947" endtime="20221118 17:17:41.955"/>
 </suite>
 <suite id="s1-s3" name="Move" source="/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/move.robot">
 <test id="s1-s3-t1" name="Move in middle of board" line="7">
@@ -89,30 +101,32 @@
 <arg>NORTH</arg>
 <arg>0</arg>
 <arg>1</arg>
-<kw name="Initialize character xposition with">
+<kw name="Initialize Character Xposition With" library="MoveLibrary">
 <arg>${startingX}</arg>
-<msg timestamp="20221118 16:57:58.313" level="FAIL">No keyword with name 'Initialize character xposition with' found.</msg>
-<status status="FAIL" starttime="20221118 16:57:58.313" endtime="20221118 16:57:58.313"/>
+<status status="PASS" starttime="20221118 17:17:41.960" endtime="20221118 17:17:41.960"/>
 </kw>
-<kw name="Initialize character yposition with">
+<kw name="Initialize Character Yposition With" library="MoveLibrary">
 <arg>${startingY}</arg>
-<status status="NOT RUN" starttime="20221118 16:57:58.315" endtime="20221118 16:57:58.315"/>
+<status status="PASS" starttime="20221118 17:17:41.960" endtime="20221118 17:17:41.961"/>
 </kw>
-<kw name="Move in direction">
+<kw name="Move In Direction" library="MoveLibrary">
 <arg>${direction}</arg>
-<status status="NOT RUN" starttime="20221118 16:57:58.316" endtime="20221118 16:57:58.316"/>
+<msg timestamp="20221118 17:17:41.961" level="INFO">Set character position state for testing
+Moved NORTH</msg>
+<status status="PASS" starttime="20221118 17:17:41.961" endtime="20221118 17:17:41.961"/>
 </kw>
-<kw name="Character xposition should be">
+<kw name="Character Xposition Should Be" library="MoveLibrary">
 <arg>${endingX}</arg>
-<status status="NOT RUN" starttime="20221118 16:57:58.317" endtime="20221118 16:57:58.317"/>
+<msg timestamp="20221118 17:17:41.962" level="FAIL">-1 != 0</msg>
+<status status="FAIL" starttime="20221118 17:17:41.961" endtime="20221118 17:17:41.962"/>
 </kw>
-<kw name="Character yposition should be">
+<kw name="Character Yposition Should Be" library="MoveLibrary">
 <arg>${endingY}</arg>
-<status status="NOT RUN" starttime="20221118 16:57:58.318" endtime="20221118 16:57:58.318"/>
+<status status="NOT RUN" starttime="20221118 17:17:41.962" endtime="20221118 17:17:41.962"/>
 </kw>
-<status status="FAIL" starttime="20221118 16:57:58.312" endtime="20221118 16:57:58.319"/>
+<status status="FAIL" starttime="20221118 17:17:41.960" endtime="20221118 17:17:41.963"/>
 </kw>
-<status status="FAIL" starttime="20221118 16:57:58.311" endtime="20221118 16:57:58.319">No keyword with name 'Initialize character xposition with' found.</status>
+<status status="FAIL" starttime="20221118 17:17:41.959" endtime="20221118 17:17:41.963">-1 != 0</status>
 </test>
 <test id="s1-s3-t2" name="Move on edge of board" line="8">
 <kw name="Move character">
@@ -121,91 +135,51 @@
 <arg>SOUTH</arg>
 <arg>0</arg>
 <arg>0</arg>
-<kw name="Initialize character xposition with">
+<kw name="Initialize Character Xposition With" library="MoveLibrary">
 <arg>${startingX}</arg>
-<msg timestamp="20221118 16:57:58.321" level="FAIL">No keyword with name 'Initialize character xposition with' found.</msg>
-<status status="FAIL" starttime="20221118 16:57:58.321" endtime="20221118 16:57:58.321"/>
+<status status="PASS" starttime="20221118 17:17:41.964" endtime="20221118 17:17:41.964"/>
 </kw>
-<kw name="Initialize character yposition with">
+<kw name="Initialize Character Yposition With" library="MoveLibrary">
 <arg>${startingY}</arg>
-<status status="NOT RUN" starttime="20221118 16:57:58.322" endtime="20221118 16:57:58.323"/>
+<status status="PASS" starttime="20221118 17:17:41.964" endtime="20221118 17:17:41.965"/>
 </kw>
-<kw name="Move in direction">
+<kw name="Move In Direction" library="MoveLibrary">
 <arg>${direction}</arg>
-<status status="NOT RUN" starttime="20221118 16:57:58.324" endtime="20221118 16:57:58.324"/>
+<msg timestamp="20221118 17:17:41.965" level="INFO">Set character position state for testing
+Moved SOUTH</msg>
+<status status="PASS" starttime="20221118 17:17:41.965" endtime="20221118 17:17:41.965"/>
 </kw>
-<kw name="Character xposition should be">
+<kw name="Character Xposition Should Be" library="MoveLibrary">
 <arg>${endingX}</arg>
-<status status="NOT RUN" starttime="20221118 16:57:58.325" endtime="20221118 16:57:58.325"/>
+<msg timestamp="20221118 17:17:41.965" level="FAIL">-1 != 0</msg>
+<status status="FAIL" starttime="20221118 17:17:41.965" endtime="20221118 17:17:41.965"/>
 </kw>
-<kw name="Character yposition should be">
+<kw name="Character Yposition Should Be" library="MoveLibrary">
 <arg>${endingY}</arg>
-<status status="NOT RUN" starttime="20221118 16:57:58.326" endtime="20221118 16:57:58.326"/>
+<status status="NOT RUN" starttime="20221118 17:17:41.966" endtime="20221118 17:17:41.966"/>
 </kw>
-<status status="FAIL" starttime="20221118 16:57:58.320" endtime="20221118 16:57:58.327"/>
+<status status="FAIL" starttime="20221118 17:17:41.964" endtime="20221118 17:17:41.966"/>
 </kw>
-<status status="FAIL" starttime="20221118 16:57:58.319" endtime="20221118 16:57:58.327">No keyword with name 'Initialize character xposition with' found.</status>
+<status status="FAIL" starttime="20221118 17:17:41.963" endtime="20221118 17:17:41.966">-1 != 0</status>
 </test>
 <doc>I want to move my character. If they attempt to move past a boundry, the move results in no change in position.</doc>
-<status status="FAIL" starttime="20221118 16:57:58.308" endtime="20221118 16:57:58.327"/>
+<status status="FAIL" starttime="20221118 17:17:41.956" endtime="20221118 17:17:41.967"/>
 </suite>
-<status status="FAIL" starttime="20221118 16:57:58.260" endtime="20221118 16:57:58.328"/>
+<status status="FAIL" starttime="20221118 17:17:41.916" endtime="20221118 17:17:41.968"/>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="6" skip="0">All Tests</stat>
+<stat pass="4" fail="2" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="0" fail="6" skip="0" id="s1" name="Robot">Robot</stat>
-<stat pass="0" fail="2" skip="0" id="s1-s1" name="Data Driven">Robot.Data Driven</stat>
-<stat pass="0" fail="2" skip="0" id="s1-s2" name="Gherkin">Robot.Gherkin</stat>
+<stat pass="4" fail="2" skip="0" id="s1" name="Robot">Robot</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s1" name="Data Driven">Robot.Data Driven</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s2" name="Gherkin">Robot.Gherkin</stat>
 <stat pass="0" fail="2" skip="0" id="s1-s3" name="Move">Robot.Move</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20221118 16:57:58.282" level="ERROR">Error in file '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/data_driven.robot' on line 4: Importing library '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/GameControllerLibrary.py' failed: SyntaxError: invalid syntax (character.py, line 43)
-Traceback (most recent call last):
-  File "/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/GameControllerLibrary.py", line 1, in &lt;module&gt;
-    from levelup.controller import GameController
-  File "/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/src/levelup/controller.py", line 3, in &lt;module&gt;
-    from levelup.character import Character
-PYTHONPATH:
-  /home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot
-  /opt/hostedtoolcache/Python/3.10.8/x64/bin
-  /home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/src
-  /opt/hostedtoolcache/Python/3.10.8/x64/lib/python310.zip
-  /opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10
-  /opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/lib-dynload
-  /opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages</msg>
-<msg timestamp="20221118 16:57:58.300" level="ERROR">Error in file '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/gherkin.robot' on line 3: Importing library '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/GameControllerLibrary.py' failed: SyntaxError: invalid syntax (character.py, line 43)
-Traceback (most recent call last):
-  File "/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/GameControllerLibrary.py", line 1, in &lt;module&gt;
-    from levelup.controller import GameController
-  File "/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/src/levelup/controller.py", line 3, in &lt;module&gt;
-    from levelup.character import Character
-PYTHONPATH:
-  /home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot
-  /opt/hostedtoolcache/Python/3.10.8/x64/bin
-  /home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/src
-  /opt/hostedtoolcache/Python/3.10.8/x64/lib/python310.zip
-  /opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10
-  /opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/lib-dynload
-  /opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages</msg>
-<msg timestamp="20221118 16:57:58.311" level="ERROR">Error in file '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/move.robot' on line 4: Importing library '/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/MoveLibrary.py' failed: SyntaxError: invalid syntax (character.py, line 43)
-Traceback (most recent call last):
-  File "/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot/MoveLibrary.py", line 1, in &lt;module&gt;
-    from levelup.controller import GameController
-  File "/home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/src/levelup/controller.py", line 3, in &lt;module&gt;
-    from levelup.character import Character
-PYTHONPATH:
-  /home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/tests/robot
-  /opt/hostedtoolcache/Python/3.10.8/x64/bin
-  /home/runner/work/team-4-snakes-r-us/team-4-snakes-r-us/src
-  /opt/hostedtoolcache/Python/3.10.8/x64/lib/python310.zip
-  /opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10
-  /opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/lib-dynload
-  /opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages</msg>
 </errors>
 </robot>
