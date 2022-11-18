@@ -34,7 +34,16 @@ class Character:
         curr_pos = [curr_r][curr_c]
         return curr_pos
 
-    def move():
+    def move(m, setPosition):
+        allowedMoves = ['w','s','d','a']
+        if m == 'w':
+            curr_r = 1
+            curr_c = 1
+            curr_pos = [curr_r][curr_c]
+            return pass
+
+
+
         
 
 
