@@ -36,11 +36,18 @@ class Character:
 
     def move(m, setPosition):
         allowedMoves = ['w','s','d','a']
+<<<<<<< HEAD
         if m == 'w':
             curr_r = 1
             curr_c = 1
             curr_pos = [curr_r][curr_c]
             
+=======
+        if m in allowedMoves :
+            return setPosition + m
+        else:
+            return "wrong move ! stick to w,s,d, or a"
+>>>>>>> 6caace4 (this is aj)
 
 
 
