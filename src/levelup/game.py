@@ -46,7 +46,7 @@ print("                          (_((")
 print("")
 print("")
 print("Type [N]ame to Name your Character")
-print("Type [E]ame to Exit this Game")
+print("Type [X]ame to Exit this Game")
 
 #keyboard1=input()
 #if keyboard1 == 'N':
