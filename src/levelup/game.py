@@ -26,7 +26,7 @@ class GameUI:
                 lambda x: x in valid_directions,
             )
             self.game.move(Direction(responce))
-# Game Start Screen
+# Level Up Game - Start Screen
 
 print("")
 print("                   Welcome")
