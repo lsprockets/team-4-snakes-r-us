@@ -34,6 +34,7 @@ class Character:
         curr_pos = [curr_r][curr_c]
         return curr_pos
 
+<<<<<<< HEAD
     def move(m, setPosition):
         allowedMoves = ['w','s','d','a']
 <<<<<<< HEAD
@@ -48,7 +49,15 @@ class Character:
         else:
             return "wrong move ! stick to w,s,d, or a"
 >>>>>>> 6caace4 (this is aj)
+=======
+    def move(self):
+        print('make a move')
+        slef.direction  = input('you can move using w,a,s, or d')
+>>>>>>> 25ee0f1 (AJ)
 
+        return direction
+        
+        
 
 
         
