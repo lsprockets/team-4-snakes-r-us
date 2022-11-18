@@ -26,3 +26,31 @@ class GameUI:
                 lambda x: x in valid_directions,
             )
             self.game.move(Direction(responce))
+# Game Start Screen
+
+print("")
+print("                   Welcome")
+print("                     To")
+print("                 Level Up Games!")
+print("            Your Next Adventure Awaits")
+print("")
+print("")
+print("")                           ___
+print("                          ( ((")
+print("                           ) ))")
+print("  .::.                    / /(")
+print(" 'M .-;-.-.-.-.-.-.-.-.-/| ((::::::::::::::::::::::::::::::::::::::::::::::.._")
+print("(J ( ( ( ( ( ( ( ( ( ( ( |  ))   -====================================-      _.>")
+print(" `P `-;-`-`-`-`-`-`-`-`-\| ((::::::::::::::::::::::::::::::::::::::::::::::''")
+print("  `::'                    \ \(")
+print("                          ) ))")
+print("                          (_((")
+
+print("Type [N]ame to Name your Character")
+print("Type [E]ame to Exit this Game")
+
+keyboard1=input()
+if keyboard1 == 'N':
+    print("Enter your Character Name")
+    name=input()
+print(name)
