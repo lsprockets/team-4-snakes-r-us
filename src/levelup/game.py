@@ -27,7 +27,6 @@ class GameUI:
             )
             self.game.move(Direction(responce))
 # Level Up Game - Start Screen
-
 print("")
 print("                   Welcome")
 print("                     To")
@@ -45,12 +44,13 @@ print(" `P `-;-`-`-`-`-`-`-`-`-\| ((::::::::::::::::::::::::::::::::::::::::::::
 print("  `::'                    \ \(")
 print("                          ) ))")
 print("                          (_((")
-
+print("")
+print("")
 print("Type [N]ame to Name your Character")
 print("Type [E]ame to Exit this Game")
 
-keyboard1=input()
-if keyboard1 == 'N':
-    print("Enter your Character Name")
-    name=input()
-print(name)
+#keyboard1=input()
+#if keyboard1 == 'N':
+#    print("Enter your Character Name")
+#    name=input()
+#print(name)
