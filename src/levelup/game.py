@@ -1,7 +1,6 @@
 from typing import Callable
 from levelup.controller import GameController, Direction
 
-
 class GameUI:
 
     game: GameController

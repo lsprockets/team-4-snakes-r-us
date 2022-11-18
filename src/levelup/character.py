@@ -40,7 +40,7 @@ class Character:
             curr_r = 1
             curr_c = 1
             curr_pos = [curr_r][curr_c]
-            return pass
+            
 
 
 
